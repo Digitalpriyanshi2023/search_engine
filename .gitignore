@@ -1,0 +1,61 @@
+# Python bytecode files
+*.pyc
+__pycache__/
+
+# Virtual environments
+venv/
+env/
+ENV/
+venv.bak/
+
+# Django settings and cache
+*.sqlite3
+db.sqlite3
+db.sqlite3-journal
+*.log
+*.pot
+*.py[co]
+*.mo
+*.woff
+*.woff2
+*.ttf
+*.eot
+staticfiles/
+media/
+
+# Django migrations
+*/migrations/*.pyc
+*/migrations/__pycache__/
+*/migrations/*.py
+
+# Local settings files
+local_settings.py
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coveragerc
+*.hypothesis/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Node.js and frontend dependencies
+node_modules/
+static/js/
+
+# Cache and logs
+*.cache/
+*.log
+
+# Backup files
+*~
+*.swp
+
+# Other files and folders
+.idea/
+.vscode/
+.DS_Store
+.env
